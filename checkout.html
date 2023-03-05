@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="home-top">
+      <div class="header-top">
+        <div class="left">
+          <form action="">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              name=""
+              id=""
+              class="search"
+              placeholder="Search"
+            />
+          </form>
+        </div>
+
+        <div class="middle">
+          <h3>O-N-O-A</h3>
+        </div>
+
+        <div class="right">
+          <a href="#"> <i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-regular fa-heart"></i></a>
+          <a href="" class="cart"
+            ><i class="fa-solid fa-cart-shopping"></i> <span>2</span></a
+          >
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">shop</a>
+        <a href="#">catalogue</a>
+        <a href="#">new arrivals</a>
+        <a href="#">contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="page-title">
+        <a href="index.html">Home</a>
+        <span class="slash">/</span>
+        <a href="Cart">Cart</a>
+        <span class="slash">/</span>
+        <span>Checkout</span>
+      </div>
+      <div class="return">
+        <p>Returning customer? <a href="">Click here </a> to login</p>
+      </div>
+
+      
+    <section class="sec1">
+        
+  
+
+      <div class="div2-sec1">
+          <!-- start div form -->
+          <div class="box-L">
+              <!-- heading form -->
+              <h2 class="h2-sec1">Billing Details</h2>
+              <!-- start form -->
+              <div class="form-l">
+                  <label for="country" class="label-sec1">Country
+                      <span class="span-1">*</span>
+                  </label>
+                  <br />
+                  <select id="country" class="form1-conl">
+                      <option value="1">Select a country</option>
+                      <option value="2">bangladesh</option>
+                      <option value="3">Algeria</option>
+                      <option value="4">Afghanistan</option>
+                      <option value="5">Ghana</option>
+                      <option value="6">Albania</option>
+                      <option value="7">Bahrain</option>
+                      <option value="8">Colombia</option>
+                      <option value="9">Dominican Republic</option>
+                  </select>
+                  <div class="div1-form">
+                      <div>
+                          <label for="First Name" class="label-sec1">First Name <span class="span-1">*</span></label>
+
+                          <input type="text" id="First Name" class="form1-con2" />
+                      </div>
+                      <div>
+                          <label for="Last Name" class="label-sec1">Last Name <span class="span-1">*</span></label>
+                          <input type="text" id="Last Name" class="form1-con2" />
+                      </div>
+                  </div>
+                  <label for="Company Name" class="label-sec1">Company Name</label>
+
+                  <input type="text" id="Company Name" class="form1-con3" />
+                  <label for="Address" class="label-sec1">Address <span class="span-1">*</span></label>
+
+                  <input type="text" id="Address" class="form1-con3" placeholder="Street address" />
+                  <input type="text" id="Address" class="form1-con4"
+                      placeholder="Apartment, suite, unit etc. (optional)" />
+                  <div class="div1-form">
+                      <div>
+                          <label for="State / Country" class="label-sec1">State / Country<span
+                                  class="span-1">*</span></label>
+
+                          <input type="text" id="State / Country" class="form1-con2" />
+                      </div>
+                      <div>
+                          <label for="Posta / Zip " class="label-sec1">Posta / Zip <span
+                                  class="span-1">*</span></label>
+                          <input type="text" id="Posta / Zip " class="form1-con2" />
+                      </div>
+                  </div>
+                  <div class="div1-form">
+                      <div>
+                          <label for="Email Address " class="label-sec1">Email Address <span
+                                  class="span-1">*</span></label>
+
+                          <input type="text" id="Email Address " class="form1-con2" />
+                      </div>
+                      <div>
+                          <label for="Phone" class="label-sec1">Phone <span class="span-1">*</span></label>
+                          <input type="text" id="Phone" class="form1-con2" placeholder="Phone Number" />
+                      </div>
+                  </div>
+                  <div class="chekbox"> <input type="checkbox" value="1">
+                      <label for=""> Create an account?</label>
+                  </div>
+                  <div class="chekbox">
+                      <input type="checkbox" value="2">
+                      <label for=""> Ship To A Different Address?</label>
+                  </div>
+                  <div  class="chekbox"><label for="Order Notes">Order Notes</label>
+                      <br>
+                      <textarea  id="Order Notes" class="form1-con5" cols="56" rows="7" placeholder="Write your notes here..."></textarea>
+                  
+                  
+                  </div>
+
+              </div>
+              <!-- end form -->
+               
+          </div>
+          <div class="box-R">
+            <!---BOX-A1--->
+            <h2 class="h2-sec1">
+                Coupon Code
+            </h2>
+            
+            <div class="box-1">
+               
+                <label class="lb" for="aaa1">Enter your coupon code if you have one</label>
+                <br>
+                 <input type="text" id="aaa1"  class="input2" placeholder="coupon code" >
+                <button class="link3">APPLY</button>
+               
+            </div>
+            <!---BOX-A2--->
+            <h2 class="h21-sec1">
+                Your Order
+            </h2>
+          <div class="div-border">
+
+            <div class="box-2">
+              <table class="table-A-Z">
+                  <thead>
+                    <tr class="TR-B">
+                      <th>Product</th>
+                     <th>Total</th>
+                    </tr>
+                   </thead>
+          
+                  <tbody class="TD-c" >
+          
+                      <tr >
+                          <td >
+                              Top Up T-Shirt 
+                          <strong class="td-1">x</strong>
+                          1
+                          </td>
+                          <td>
+                              $147.00
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Polo Shirt 
+                              <strong class="td-1">x</strong>
+                              1
+                          </td>
+                          <td>
+                              $100.00
+          
+                          </td>
+          
+                      </tr>
+                      <tr class="tr-1">
+                          <th>
+                              Cart Subtotal 
+                          </th>
+                          <td>
+                              $150.00
+                          </td>
+          
+          
+          
+                      </tr>
+                      <tr>
+                          <th>
+                              Order Total 
+                          </th>
+                          <th>
+                              $490.00 
+                         </th> 
+                             
+                          
+          
+          
+          
+                      </tr>
+                  </tbody>
+          
+          
+          
+          
+                   
+              </table>
+           </div>
+          
+           <div>
+              <details class="DTS">
+                  <summary class="sm">
+                      Direct Bank Transfer
+                  </summary>
+                  <p class="p-d">  Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </details>
+           </div>
+           <div>
+              <details class="DTS">
+                  <summary class="sm">
+                      Cheque Payment 
+                  </summary>
+                  <p  class="p-d"> Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </details>
+           </div>
+           <div class="d-3">
+              <details class="DTS">
+                  <summary class="sm">
+                      Paypal
+                  </summary>
+                  <p  class="p-d">  Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </details>
+           </div>
+           <!---link---->
+           <div class="li-1">
+              <a href="thanks.html" class="link6">PLACE ORDER</a>
+          
+           </div>
+          </div>
+        
+         </div>
+      </div>
+  </section>
+  <footer>
+    <div class="main-container">
+      <div>
+        <h3>Navigations</h3>
+        <ul>
+          
+          <li><a href="">Sell online</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Shopping cart</a></li>
+          <li><a href="">Store builder</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="bottom">
+          <li><a href="">Mobile commerce</a></li>
+          <li><a href="">Dropshipping</a></li>
+          <li><a href="">Website development</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="bottom">
+          <li><a href="">Point of sale</a></li>
+          <li><a href="">Hardware</a></li>
+          <li><a href="">Software</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Promo</h3>
+        <ul >
+          <li><img src="./images/hero-bg.jpg" alt=""></li>
+          <li><a href="">Finding Your Perfect Shoes</a></li>
+          <li><a href="">Promo from nuary 15 — 25, 2019</a></li>
+        </ul>
+         
+      </div>
+      <div class="last">
+        <h3>Contact Info</h3>
+        <ul class="contact">
+          <li><i class="fa-solid fa-location-dot"></i>203 Fake St. Mountain View,San <br>
+               Francisco, California, USA</li>
+          <li><i class="fa-solid fa-phone"></i> +1929-345-9020</li>
+          <li><i class="fa-solid fa-envelope"></i>emailaddress@domain.com</li>
+        
+        </ul>
+        <h4>Subscribe</h4>
+        <form action="">
+          <input type="email" name="" id="" placeholder="enter your email">
+          <button>send</button>
+        </form>
+      </div>
+    </div>
+    <p class="copy">Copyright ©2022 All rights reserved | This template is made with by  <span>Omar - Nadeen - Omar - Ahmed</span></p>
+    <a href="#home-top" class="main-top"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+
+  </body>
+</html>

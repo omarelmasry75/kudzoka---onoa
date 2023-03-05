@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title><link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header id="home-top">
+        <div class="header-top">
+          <div class="left">
+            <form action="">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="search"
+                placeholder="Search"
+              />
+            </form>
+          </div>
+  
+          <div class="middle">
+            <h3>O-N-O-A</h3>
+          </div>
+  
+          <div class="right">
+            <a href="#"> <i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href="" class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i> <span>2</span></a
+            > 
+         
+
+          </div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="shop.html">shop</a>
+          <a href="#">catalogue</a>
+          <a href="#">new arrivals</a>
+          <a href="#">contact</a>
+        </nav>
+      </header>
+      <main>
+        <div class="page-title">
+            <a href="index.html">Home</a>
+            <span class="slash">/</span>
+            <span>Cart</span>
+        </div>
+        <section class="cart-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="./images/cloth_1.jpg" alt=""></td>
+                        <td>Top Up T-Shirt</td>
+                        <td>$49.00</td>
+                        <td>
+                            <button class="style"><i class="fa-solid fa-minus"></i></button>
+                        <input class="style" type="text" name="" id="" placeholder="1" readonly>
+                        <button class="style"><i class="fa-solid fa-plus"></i></button>
+                        </td>
+                        <td>
+                            $49.00
+                        </td>
+                        <td>
+                            <button class="remove">
+                                <i class="fa-solid fa-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/shoe_1.jpg" alt=""></td>
+                        <td>Top Up T-Shirt</td>
+                        <td>$49.00</td>
+                        <td>
+                            <button class="style"><i class="fa-solid fa-minus"></i></button>
+                        <input class="style" type="text" name="" id="" placeholder="1" readonly>
+                        <button class="style"><i class="fa-solid fa-plus"></i></button>
+                        </td>
+                        <td>
+                            $49.00
+                        </td>
+                        <td>
+                            <button class="remove">
+                                <i class="fa-solid fa-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/cloth_2.jpg" alt=""></td>
+                        <td>Top Up T-Shirt</td>
+                        <td>$49.00</td>
+                        <td>
+                            <button class="style"><i class="fa-solid fa-minus"></i></button>
+                        <input class="style" type="text" name="" id="" placeholder="1" readonly>
+                        <button class="style"><i class="fa-solid fa-plus"></i></button>
+                        </td>
+                        <td>
+                            $49.00
+                        </td>
+                        <td>
+                            <button class="remove">
+                                <i class="fa-solid fa-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>$147</td>
+                        <td>---</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section class="cart-second">
+            <div class="left">
+                <div class="first">
+                    <button class="update">UPDATE CART</button>
+                <button class="continue">CONTINUE SHOPPING</button>
+                </div>
+                <div class="second">
+                    <h2>Coupon</h2>
+                    <h4>Enter your coupon code if you have one.</h4>
+                    <input type="text" name="" id="" placeholder="Enter the Coupon">
+                    <button class="apply">Apply Coupon</button>
+                </div>
+            </div>
+            <div class="right">
+                <h3>CART TOTALS</h3>
+                <div>
+                    <h4>Subtotal</h4>
+                    <span>$147</span>
+                </div>
+                
+                <div>
+                    <h4>Tax</h4>
+                    <span>$15</span>
+                </div>
+                <div>
+                    <h4>Total</h4>
+                    <span>$163</span>
+                </div>
+                <a href="checkout.html">
+                    Proceed to checkout
+                </a>
+            </div>
+        </section>
+      </main>
+      <footer>
+        <div class="main-container">
+          <div>
+            <h3>Navigations</h3>
+            <ul>
+              
+              <li><a href="">Sell online</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Shopping cart</a></li>
+              <li><a href="">Store builder</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="bottom">
+              <li><a href="">Mobile commerce</a></li>
+              <li><a href="">Dropshipping</a></li>
+              <li><a href="">Website development</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="bottom">
+              <li><a href="">Point of sale</a></li>
+              <li><a href="">Hardware</a></li>
+              <li><a href="">Software</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Promo</h3>
+            <ul >
+              <li><img src="./images/hero-bg.jpg" alt=""></li>
+              <li><a href="">Finding Your Perfect Shoes</a></li>
+              <li><a href="">Promo from nuary 15 — 25, 2019</a></li>
+            </ul>
+             
+          </div>
+          <div class="last">
+            <h3>Contact Info</h3>
+            <ul class="contact">
+              <li><i class="fa-solid fa-location-dot"></i>203 Fake St. Mountain View,San <br>
+                   Francisco, California, USA</li>
+              <li><i class="fa-solid fa-phone"></i> +1929-345-9020</li>
+              <li><i class="fa-solid fa-envelope"></i>emailaddress@domain.com</li>
+            
+            </ul>
+            <h4>Subscribe</h4>
+            <form action="">
+              <input type="email" name="" id="" placeholder="enter your email">
+              <button>send</button>
+            </form>
+          </div>
+        </div>
+        <p class="copy">Copyright ©2022 All rights reserved | This template is made with by  <span>Omar - Nadeen - Omar - Ahmed</span></p>
+        <a href="#home-top" class="main-top"><i class="fa-solid fa-arrow-up"></i></a>
+      </footer>
+</body>
+</html>
